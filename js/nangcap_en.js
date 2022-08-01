@@ -14,27 +14,27 @@ function load_info_nc() {
   var ovr_nc = getOtem("ovr_nc");
   var grade = getItem("grade");
   var price = getItem("price");
-  $(".card_img").attr("src", "/anh/anhcauthu/anh_1/" + ss + ".png?v=3");
+  $(".card_img").attr("src", "http://fo4huuduc.000webhostapp.com/anh/anhcauthu/anh_1/" + ss + ".png?v=3");
   $(".txt_ovr").html(ovr);
   $(".txt_ten").html(ten);
   $(".txt_luong").html(luong);
   $(".txt_vt").html(vt);
   $(".txt_price").html(parseInt(price).toCurrencyString());
   if (qg == "Viet Nam") {
-    $(".img_qg").attr("src", "/anh/Flag/VN.png");
+    $(".img_qg").attr("src", "http://fo4huuduc.000webhostapp.com/anh/Flag/VN.png");
   } else if (qg == "South Korea") {
-    $(".img_qg").attr("src", "/anh/Flag/HQ.png");
+    $(".img_qg").attr("src", "http://fo4huuduc.000webhostapp.com/anh/Flag/HQ.png");
   } else if (qg == "Thailand") {
-    $(".img_qg").attr("src", "/anh/Flag/THA.png");
+    $(".img_qg").attr("src", "http://fo4huuduc.000webhostapp.com/anh/Flag/THA.png");
   } else if (qg == "China") {
-    $(".img_qg").attr("src", "/anh/Flag/TQ.png");
+    $(".img_qg").attr("src", "http://fo4huuduc.000webhostapp.com/anh/Flag/TQ.png");
   } else if (qg == "Indonesia") {
-    $(".img_qg").attr("src", "/anh/Flag/IND.png");
+    $(".img_qg").attr("src", "http://fo4huuduc.000webhostapp.com/anh/Flag/IND.png");
   }
   $(".img_grade").attr("src", grade);
   $(".img_ss, .img_ss_info").attr(
     "src",
-    "/anh/anhcauthu/anh_2/" + ss + ".png?v=3"
+    "http://fo4huuduc.000webhostapp.com/anh/anhcauthu/anh_2/" + ss + ".png?v=3"
   );
   $(".img_face").attr("src", face);
   if (grade == grade_1) {
