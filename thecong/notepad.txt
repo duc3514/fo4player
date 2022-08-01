@@ -1,0 +1,67 @@
+Accelerate
+Speed
+Dribble
+Control
+Short Pass
+Finish
+Shot Power
+Heading
+Long Shoot
+Positioning
+Vision
+Reactions 107
+115
+114
+120
+132
+108
+108
+118
+127
+124
+104
+125
+ Volleys
+Penalties
+Cross
+Long Pass
+Free Kick
+Curve
+Agility
+Balance
+Marking
+Standing
+Intercepte
+Sliding 124
+119
+125
+126
+115
+106
+127
+121
+113
+109
+123
+134
+ Strength
+Stamina
+Aggression
+Jumping
+Jumping
+? OVR GK
+Diving
+Handling
+Kicking
+Reflexes
+Positioning 111
+131
+104
+115
+132
+ 
+107
+133
+104
+115
+123

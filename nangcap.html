@@ -1,0 +1,315 @@
+<html lang="vi">
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8" />
+    <meta name="google-site-verification" content="" />
+    <meta name="generator" content="Webgly.com" />
+    <meta property="fb:pages" content="" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:image" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="./css/NHD_Num.css" rel="stylesheet" />
+
+    <script src="./js/LocalStorage.js"></script>
+    <script src="./js/grade.js"></script>
+    <script>
+      // TIME LOAD PAGE NO CACHE
+      var d = new Date();
+      var h_cache = d.getHours();
+      var m_cache = d.getMinutes();
+      var s_cache = d.getSeconds();
+      var date_cache = "";
+      var newDate = new Date();
+      date_cache += newDate.getDate();
+      date_cache += newDate.getMonth() + 1;
+      date_cache += newDate.getFullYear();
+      var v_cache = "?v=" + date_cache + h_cache + m_cache + s_cache;
+    </script>
+    <style>
+      .fadeOutDownBig {
+        animation: fadeOutDownBig 1s;
+      }
+      .fadeInUpBig {
+        animation: fadeInUpBig 1s;
+      }
+      .bounceIn {
+        animation: bounceIn 1s;
+      }
+      @-webkit-keyframes bounceIn {
+        0%,
+        20%,
+        40%,
+        60%,
+        80%,
+        to {
+          -webkit-animation-timing-function: cubic-bezier(
+            0.215,
+            0.61,
+            0.355,
+            1
+          );
+          animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        }
+        0% {
+          opacity: 0;
+          -webkit-transform: scale3d(0.3, 0.3, 0.3);
+          transform: scale3d(0.3, 0.3, 0.3);
+        }
+        20% {
+          -webkit-transform: scale3d(1.1, 1.1, 1.1);
+          transform: scale3d(1.1, 1.1, 1.1);
+        }
+        40% {
+          -webkit-transform: scale3d(0.9, 0.9, 0.9);
+          transform: scale3d(0.9, 0.9, 0.9);
+        }
+        60% {
+          opacity: 1;
+          -webkit-transform: scale3d(1.03, 1.03, 1.03);
+          transform: scale3d(1.03, 1.03, 1.03);
+        }
+        80% {
+          -webkit-transform: scale3d(0.97, 0.97, 0.97);
+          transform: scale3d(0.97, 0.97, 0.97);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+        }
+      }
+      @-webkit-keyframes fadeInUpBig {
+        0% {
+          opacity: 0;
+          -webkit-transform: translate3d(0, 2000px, 0);
+          transform: translate3d(0, 2000px, 0);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+        }
+      }
+
+      @keyframes fadeInUpBig {
+        0% {
+          opacity: 0;
+          -webkit-transform: translate3d(0, 2000px, 0);
+          transform: translate3d(0, 2000px, 0);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+        }
+      }
+      @-webkit-keyframes fadeOutDownBig {
+        0% {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+          -webkit-transform: translate3d(0, 2000px, 0);
+          transform: translate3d(0, 2000px, 0);
+        }
+      }
+
+      @keyframes fadeOutDownBig {
+        0% {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+          -webkit-transform: translate3d(0, 2000px, 0);
+          transform: translate3d(0, 2000px, 0);
+        }
+      }
+      .img_grade {
+        margin-top: 10px;
+      }
+      .txt_ovr {
+        margin-top: 30px;
+      }
+      .vt_div .txt_ovr .vt_div {
+        margin-top: 30px;
+      }
+      .game {
+        display: none;
+      }
+    </style>
+
+    <link
+      rel="shortcut icon"
+      href="https://scontent.fhph1-1.fna.fbcdn.net/v/t1.0-9/25594080_120262022102106_5180256976381483144_n.jpg?_nc_cat=100&_nc_ohc=I71OmV2T6TIAQnH-sCnl6l_O_0jFDZJCPD24IN0eQUMsIaBrlW4AEj6Qg&_nc_ht=scontent.fhph1-1.fna&oh=f79be8979432d1778c4e819b4b4be279&oe=5EB33846"
+      type="image/x-icon"
+    />
+
+    <title>Nâng Cấp Thẻ Fo4 - Thỏa Mản Niềm Đam Mê Đập Thẻ</title>
+
+    <meta property="fb:app_id" content="1058759660899245" />
+
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="robots" content="index, follow" />
+
+    <meta
+      property="og:image"
+      content="https://scontent.fhph1-1.fna.fbcdn.net/v/t1.0-9/25594080_120262022102106_5180256976381483144_n.jpg?_nc_cat=100&_nc_ohc=I71OmV2T6TIAQnH-sCnl6l_O_0jFDZJCPD24IN0eQUMsIaBrlW4AEj6Qg&_nc_ht=scontent.fhph1-1.fna&oh=f79be8979432d1778c4e819b4b4be279&oe=5EB33846"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:title" content="Nâng cấp En" />
+    <meta property="og:url" />
+    <meta property="og:site_name" content="fo4creator.foarena.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="" />
+
+    <link rel="canonical" href="http://localhost/" />
+
+    <style></style>
+  </head>
+  <body onload="load_info_nc();">
+    <div class="#content">
+      <link href="./css/W3.css" rel="stylesheet" />
+      <link href="./css/CSS_HIEUUNG.css" rel="stylesheet" />
+      <link href="./css/CSS_HIEUUNG_2.css" rel="stylesheet" />
+      <link href="./css/css_nangcap.css" rel="stylesheet" />
+      <link href="./css/NHD_Num.css" rel="stylesheet" />
+      <link href="./css/color_chiso.css" rel="stylesheet" />
+      <style>
+        .nc_thatbai {
+          filter: grayscale(100%);
+        }
+        .txt_ovr {
+          font-size: 4.5vh;
+          margin-top: 5px;
+        }
+        .p_baovecauthu {
+          height: 6vh;
+          width: 21vh;
+          border-radius: 50%;
+          outline: 0;
+          color: white;
+          margin-left: 39vh;
+          margin-top: 1vh;
+          z-index: 5;
+        }
+        .txt_updown,
+        .txt_grade_2 {
+          color: #74787b;
+        }
+      </style>
+
+      <!-- BODY -->
+
+      <button class="w3-top btn_comeback"></button>
+
+      <div id="confetti" class="w3-top animated zoomInUp"></div>
+      <div class="main_nc" align="center">
+        <div class="main_nc_in">
+          <!-- THẺ NÂNG CẤP -->
+          <div class="card_nc">
+            <img class="card_img" src="" alt="Figure 1: Nâng cấp En" />
+            <div class="ovr_div" style="margin-top: -30.7vh">
+              <font class="txt_ovr">Error</font>
+            </div>
+            <div class="vt_div" style="margin-top: -2vh">
+              <font class="txt_vt">RW</font>
+            </div>
+            <div class="qg_div" style="margin-top: 0vh">
+              <img
+                class="img_qg"
+                src=""
+                alt="Lỗi Không Lấy Được Data Vui Lòng Tạo Thẻ"
+              />
+            </div>
+          </div>
+          <div class="face_div" style="padding-left: 1.5vh">
+            <img
+              class="img_face animated fadeOutDownBig"
+              src=""
+              alt="Figure 3: Error HD"
+            />
+          </div>
+          <div class="grade_div">
+            <img class="img_grade" src="" alt="Figure 4: Error HD" />
+          </div>
+          <div class="ssname_div">
+            <img class="img_ss" src="" alt="Figure 5: Error HD" />
+            <font class="txt_ten">Error</font>
+          </div>
+          <div class="luong_div"><font class="txt_luong">Error</font></div>
+
+          <!-- STATUS NÂNG CẤP -->
+          <div class="main_nc_status">
+            <font class="txt_status">Nhấn nút để nâng cấp</font>
+          </div>
+
+          <!-- THÔNG TIN -->
+          <div class="main_nc_info" align="left">
+            <img class="img_ss_info" src="" alt="Figure 6: Nâng cấp En" />
+            <font class="txt_ten">1985</font><br />
+            <div style="display: inline-block; width: 22%">Cấp Thẻ</div>
+            <div
+              style="display: inline-block; width: 78%; padding-right: 5%"
+              align="right"
+            >
+              <img class="img_grade" src="Error" alt="Figure 7: " /><font
+                class="gradeprice"
+              >
+                <font color="#888">»</font>
+                <img
+                  class="img_grade_next"
+                  src=""
+                  alt="Figure 8: Nâng cấp En" /></font
+              ><font class="txt_grade_2"></font>
+            </div>
+            <br />
+            <div style="display: inline-block; width: 22%">Chỉ Số</div>
+            <div
+              style="display: inline-block; width: 78%; padding-right: 5%"
+              align="right"
+            >
+              <font style="color: black; font-size: 3.7vh" class="txt_ovr"
+                >Error data</font
+              >
+              <font class="txt_updown"
+                ><font color="#888">»</font>
+                <font class="txt_ovr_next" color="red">Errordata</font></font
+              >
+            </div>
+            <br />
+            <div style="display: inline-block; width: 22%">Giá</div>
+            <div
+              style="display: inline-block; width: 78%; padding-right: 5%"
+              align="right"
+            >
+              <font class="txt_price">Error data</font
+              ><font class="gradeprice">
+                <font color="#888">»</font>
+                <font class="txt_price_next" color="red">Errordata</font></font
+              >
+            </div>
+            <div style="display: none; width: 60%" class="baove">Bảo vệ</div>
+            <div
+              class="baove"
+              style="display: none; width: 40%; padding-right: 5%"
+              align="right"
+            >
+              <font class="check_baovecauthu">ErrorData</font>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="w3-bottom btn_nangcap">Nâng Cấp</button>
+      <button class="w3-bottom btn_hoantat" style="display: none">
+        Tiếp Tục Nâng Cấp
+      </button>
+
+      <!-- JS -->
+      <script src="./js/confetti.js?v=1"></script>
+      <script src="./js/nangcap_en.js?v=1"></script>
+    </div>
+  </body>
+</html>

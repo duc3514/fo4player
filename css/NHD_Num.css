@@ -1,0 +1,50 @@
+@font-face {
+  font-family:dinpro_cond;
+  font-style:normal;
+  src:url(/font/GMV_DIN_Pro-Cond.ttf);
+}
+
+@font-face {
+  font-family:dinpro_cond_medium;
+  font-style:normal;
+  src:url(/font/GMV_DIN_Pro-Cond_Medium.ttf);
+}
+
+@font-face {
+  font-family:dinpro_cond_black;
+  font-style:normal;
+  src:url(/font/GMV_DIN_Pro-Cond_Black.ttf);
+}
+
+@font-face {
+  font-family:dinpro;
+  font-style:normal;
+  src:url(/font/GMV_DIN_Pro.ttf);
+}
+
+@font-face {
+  font-family:dinpro_medium;
+  font-style:normal;
+  src:url(/font/GMV_DIN_Pro-Medium.ttf);
+}
+
+@font-face {
+  font-family:nhdnum;
+  font-style:normal;
+  font-weight:400;
+  src:url(/font/NHDnum.ttf);
+}
+
+@font-face {
+  font-family:nhdnum bold;
+  font-style:normal;
+  font-weight:400;
+  src:url(/font/NHDnum-Bold.ttf);
+}
+
+@font-face {
+  font-family:nhd num;
+  font-style:normal;
+  font-weight:400;
+  src:url(/font/NHD_FAM_num.ttf);
+}

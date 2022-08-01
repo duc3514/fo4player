@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing : border-box;
+  -webkit-box-sizing : border-box;
+}
+body {
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 2.8em;
+  padding : 0;
+  margin : 0;
+}
+a {
+  text-decoration: none;
+  color : #3b8bba;
+  transition: all 0.5s;
+  -moz-transition : all 0.5s;
+  -webkit-transition : all 0.5s;
+}
+a:hover {
+  color : red;
+}
+#container {
+  padding-left: 150px;
+  position: relative;
+  height : 100%;
+  left : 0;
+}
+#menu {
+  position: fixed;
+  height: 100%;
+  left : 0;
+  width : 150px;
+  background-color : #333333;
+}
+#menu ul {
+  list-style-type: none;
+  padding : 0;
+  margin : 0;
+}
+#menu ul li {
+  line-height: 2.9em;
+  height: 3em;
+  padding : 0 1em;
+  transition: all 0.5s;
+  -moz-transition : all 5s;
+  -webkt-transition : all 0.5s;
+}
+#menu ul li:hover {
+  background-color : green;
+  transition: all 0.5s;
+  -moz-transition : all 5s;
+  -webkit-transition : all 0.5s;
+}
+#menu ul li a {
+  display: block;
+  padding : 0 1em;
+  border-bottom: 1px solid blue;
+}
+#header {
+  padding : 1em 8em;
+  text-align: center;
+}
+#index {
+  background-color : green;
+  color : pink;
+  font-weight: bold;
+  font-size : 30px;
+}
+.row {
+  overflow: hidden;
+  margin : 1.5em auto;
+  text-align: center;
+}
+.row .cool {
+  width : 29%;
+  margin-right: 2em;
+  float : left;
+}
+.row .cool img {
+  float : left;
+}
+#footer {
+  padding : 1em;
+  margin : 1em;
+  border : 2px solid;
+  border-radius: 18px;
+  width: 200px;
+  text-align: center;
+}
